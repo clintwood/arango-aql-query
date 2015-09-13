@@ -7,13 +7,19 @@ Query files are must have a `.aql` file extension. You may like to use [**arango
 
 Query results are output to a paired results file with `.json` extension.  See settings for more information.
 
+### Query
 By default use `ctrl-q` to execute a query. If a file contains multiple queries, simply select the query to be executed and hit `ctrl-q`.
+
 ![append-results](https://raw.githubusercontent.com/clintwood/arango-aql-query/master/readme-append-results.gif)
 
+### bindVars
 Use of `bindVars` is supported by including `bindVars` JSON within comments before the query as shown below here.
+
 ![bindvars](https://raw.githubusercontent.com/clintwood/arango-aql-query/master/readme-bindvars.gif)
 
+### Override Settings
 All package settings can be temporarily overridden by placing a key value pair in the comment block above a query as shown here for `includeRequestTime` setting.
+
 ![timing setting](https://raw.githubusercontent.com/clintwood/arango-aql-query/master/readme-timing.gif)
 
 
