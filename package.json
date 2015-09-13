@@ -1,0 +1,32 @@
+{
+  "name": "arango-aql-query",
+  "main": "./lib/arango-aql",
+  "version": "0.1.0",
+  "description": "ArangoDB AQL Query Tool for Atom Editor",
+  "author": {
+    "name": "Clinton Wood",
+    "email": "clintwood@anotherway.co.za"
+  },
+  "keywords": [
+    "aql",
+    "arangodb",
+    "arango query language",
+    "execute",
+    "query",
+    "nosql",
+    "tools"
+  ],
+  "repository": "https://github.com/clintwood/arango-aql-query",
+  "activationCommands": {
+    "atom-workspace": "arango-aql-query:execaqlquery"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "superagent": "^1.3.0",
+    "superagent-proxy": "^1.0.0"
+  }
+}
