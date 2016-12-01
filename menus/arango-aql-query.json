@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Execute AQL Query",
+        "command": "arango-aql-query:execaqlquery"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ArangoDB AQL Query",
+          "submenu": [
+            {
+              "label": "Execute AQL Query",
+              "command": "arango-aql-query:execaqlquery"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
