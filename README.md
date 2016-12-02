@@ -8,7 +8,7 @@ Query files are must have a `.aql` file extension. You may like to use [**arango
 Query results are output to a paired results file with `.json` extension.  See settings for more information.
 
 ### Query
-By default use `ctrl-q` to execute a query. If a file contains multiple queries, simply select the query to be executed and hit `ctrl-q`.
+By default use `cmd-q` to execute a query. If a file contains multiple queries, simply select the query to be executed and hit `cmd-q`.
 
 ![append-results](https://raw.githubusercontent.com/clintwood/arango-aql-query/master/readme-append-results.gif)
 
