@@ -1,7 +1,7 @@
 {
   "name": "arango-aql-query",
   "main": "./lib/arango-aql",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "ArangoDB AQL Query Tool for Atom Editor",
   "author": {
     "name": "Clinton Wood",
