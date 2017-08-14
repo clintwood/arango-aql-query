@@ -1,5 +1,4 @@
 {
   "atom-workspace": {
-    "cmd-q": "arango-aql-query:execaqlquery"
   }
 }
